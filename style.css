@@ -1,0 +1,59 @@
+
+body {
+    background-color: #1e1e1e;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+/* Titles */
+h1, h2 {
+    color: orange;
+    text-align: center;
+}
+
+/* Paragraphs */
+p {
+    text-align: center;
+    color: #cccccc; 
+}
+
+/* Images */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.nome {
+    float: right;
+    font-size: 15px;
+    color: rgb(204, 0, 255);
+}
+
